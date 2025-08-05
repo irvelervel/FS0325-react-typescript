@@ -5,6 +5,7 @@ import FuncComponent from './components/FuncComponent'
 import FormComponent from './components/FormComponent'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MyNavbar from './components/MyNavbar'
+import FetchComponent from './components/FetchComponent'
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           }
         />
         <Route path="/form" element={<FormComponent />} />
+        <Route path="/fetch" element={<FetchComponent />} />
         <Route
           path="*"
           element={

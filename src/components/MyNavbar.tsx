@@ -22,6 +22,9 @@ function MyNavbar() {
             <Link className="nav-link" to="/form">
               Form
             </Link>
+            <Link className="nav-link" to="/fetch">
+              Fetch
+            </Link>
             <Link className="nav-link" to="/other">
               Other
             </Link>
